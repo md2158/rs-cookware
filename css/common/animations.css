@@ -1,0 +1,98 @@
+/*-----*/
+/* Buttons - Breakpoints */
+/* ./Buttons - Breakpoints */
+/*-----*/
+@keyframes rotate {
+  0% {
+    transform: rotate(0deg);
+  }
+  100% {
+    transform: rotate(360deg);
+  }
+}
+/* Menu Button Animation */
+.animated-menu-icon {
+  width: 30px;
+  height: 22px;
+  position: relative;
+  margin: 0px;
+  margin-left: 0 !important;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: 0.5s ease-in-out;
+  -moz-transition: 0.5s ease-in-out;
+  -o-transition: 0.5s ease-in-out;
+  transition: 0.5s ease-in-out;
+  cursor: pointer;
+  display: inline-flex;
+  float: right;
+}
+.animated-menu-icon span {
+  display: block;
+  position: absolute;
+  height: 2px;
+  width: 100%;
+  border-radius: 9px;
+  left: 0;
+  background: #333333;
+  margin-left: 0 !important;
+  -webkit-transform: rotate(0deg);
+  -moz-transform: rotate(0deg);
+  -o-transform: rotate(0deg);
+  transform: rotate(0deg);
+  -webkit-transition: all 0.4s ease-out;
+  -moz-transition: all 0.4s ease-out;
+  -o-transition: all 0.4s ease-out;
+  transition: all 0.4s ease-out;
+}
+.animated-menu-icon span:nth-child(1) {
+  top: 0px;
+}
+.animated-menu-icon span:nth-child(2) {
+  top: 10px;
+}
+.animated-menu-icon span:nth-child(3) {
+  top: 20px;
+}
+.animated-menu-icon.open span:nth-child(1) {
+  top: 10px;
+  -webkit-transform: rotate(135deg);
+  -moz-transform: rotate(135deg);
+  -o-transform: rotate(135deg);
+  transform: rotate(135deg);
+}
+.animated-menu-icon.open span:nth-child(2) {
+  opacity: 0;
+  left: -60px;
+}
+.animated-menu-icon.open span:nth-child(3) {
+  top: 10px;
+  -webkit-transform: rotate(-135deg);
+  -moz-transform: rotate(-135deg);
+  -o-transform: rotate(-135deg);
+  transform: rotate(-135deg);
+}
+
+/*-----*/
+/* Animations - Breakpoints */
+@media (max-width: 575px) {
+  .animated-menu-icon {
+    width: 25px;
+    height: 18px;
+  }
+  .animated-menu-icon span {
+    background-color: #9c9c9c;
+  }
+  .animated-menu-icon span:nth-child(2) {
+    top: 8px;
+  }
+  .animated-menu-icon span:nth-child(3) {
+    top: 16px;
+  }
+}
+/* ./Animations - Breakpoints */
+/*-----*/
+
+/*# sourceMappingURL=animations.css.map */

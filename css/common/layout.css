@@ -1,0 +1,26 @@
+/* Common Style - Layout */
+/*-----*/
+/* Buttons - Breakpoints */
+/* ./Buttons - Breakpoints */
+/*-----*/
+body {
+  min-width: 320px;
+  max-width: 1920px;
+  margin: auto;
+  font-family: "Montserrat", sans-serif;
+  font-weight: 400;
+  color: #000000;
+}
+body.with-bg {
+  background-image: url("../../img/product-card/bg.png");
+  background-repeat: no-repeat;
+  background-position: 100% 450px;
+}
+
+/*-----*/
+/* Layout - Breakpoints */
+/* ./Layout - Breakpoints */
+/*-----*/
+/* ./Common Style - Layout */
+
+/*# sourceMappingURL=layout.css.map */

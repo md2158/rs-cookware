@@ -1,0 +1,15 @@
+/* Common Style - About */
+@import '../mixin';
+.icon {
+    display: inline-flex;
+}
+h1, h2, h3, p {
+    margin: 0;
+}
+a {
+    &:hover,
+    &:focus {
+        text-decoration: none;
+    }
+}
+/* ./Common Style - About */

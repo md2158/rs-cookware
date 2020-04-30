@@ -1,0 +1,26 @@
+/* Common Style - Layout */
+@import '../mixin';
+body {
+    min-width: 320px;
+    max-width: 1920px;
+    margin: auto;
+    // font-family: 'Cormorant', serif;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 400;
+    color: #000000;
+    &.with-bg {
+        background-image: url('../../img/product-card/bg.png');
+        background-repeat: no-repeat;
+        background-position: 100% 450px;
+    }
+}
+/*-----*/
+/* Layout - Breakpoints */
+@media (max-width: 1199px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 575px) {}
+@media (max-width: 379px) {}
+/* ./Layout - Breakpoints */
+/*-----*/
+/* ./Common Style - Layout */

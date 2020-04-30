@@ -1,0 +1,35 @@
+$pink: #ffa6a8;
+@mixin transition-all($t) {
+    -webkit-transition: all #{$t}s ease-out;
+    -moz-transition: all #{$t}s ease-out;
+    -o-transition: all #{$t}s ease-out;
+    transition: all #{$t}s ease-out;
+}
+@mixin box-shadow($w, $x, $y, $z, $n) {    
+    box-shadow: #{$w}px #{$x}px #{$y}px #{$z}px rgba(0, 0, 0, $n)!important;
+    -moz-box-shadow: #{$w}px #{$x}px #{$y}px #{$z}px rgba(0, 0, 0, $n)!important;
+    -webkit-box-shadow: #{$w}px #{$x}px #{$y}px #{$z}px rgba(0, 0, 0, $n)!important;
+}
+@mixin flex-width($x) {
+    -ms-flex: 0 0 #{$x};
+    flex: 0 0 #{$x};
+    max-width: #{$x};
+    box-sizing: border-box;
+}
+@mixin row {
+    display: -ms-flexbox;
+    display: flex;
+    -ms-flex-wrap: wrap;
+    flex-wrap: wrap;
+}
+/*-----*/
+/* Buttons - Breakpoints */
+@media (max-width: 1800px) {}
+@media (max-width: 1700px) {}
+@media (max-width: 1199px) {}
+@media (max-width: 991px) {}
+@media (max-width: 767px) {}
+@media (max-width: 575px) {}
+@media (max-width: 379px) {}
+/* ./Buttons - Breakpoints */
+/*-----*/
