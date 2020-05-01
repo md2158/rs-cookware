@@ -7,6 +7,7 @@
   <title>Lovince</title>
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="fonts/cookware-icons/styles.css">
   <link rel="stylesheet" href="css/style.css">
 </head>
 <body>
