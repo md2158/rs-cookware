@@ -19,7 +19,7 @@
       <div class="rs-cookware-header__top-menu">
         <div class="container">
           <div class="rs-cookware-header__top-menu_nav">
-            <a class="rs-cookware-header__top-menu_link">
+            <a href="#!" class="rs-cookware-header__top-menu_link">
               <i class="icon icon-user"></i>
               <span>Войти</span>
             </a>

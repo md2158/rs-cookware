@@ -3,7 +3,12 @@
 /* Buttons - Breakpoints */
 /* ./Buttons - Breakpoints */
 /*-----*/
+body {
+  min-height: 2000px;
+}
+
 .primary-menu {
+  list-style: none;
   padding: 0;
   margin: 0;
   display: flex;
@@ -28,6 +33,7 @@
   padding: 45px 0;
   margin: 0 15px;
   line-height: 1;
+  cursor: pointer;
 }
 .primary-menu__link::before {
   content: "";
@@ -66,6 +72,7 @@
 }
 
 .sub-menu {
+  list-style: none;
   width: 290px;
   white-space: nowrap;
   padding: 25px 0;
@@ -88,6 +95,9 @@
   -moz-border-radius: 15px;
   box-sizing: border-box;
   background-color: #ffffff;
+  box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1) !important;
+  -moz-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1) !important;
+  -webkit-box-shadow: 0px 0px 20px 0px rgba(0, 0, 0, 0.1) !important;
 }
 .sub-menu__item {
   padding: 0 40px;
@@ -132,6 +142,7 @@
 }
 .sub-menu__link:hover {
   padding-left: 15px;
+  color: initial;
 }
 .sub-menu__link:hover::before {
   left: 0;
@@ -144,8 +155,18 @@
   width: 100%;
   z-index: 1;
 }
+.rs-cookware-header.menu-scroll .rs-cookware-header__top-menu {
+  background-color: rgba(74, 78, 80, 0.8);
+}
+.rs-cookware-header.menu-scroll .rs-cookware-header__main-nav {
+  background-color: rgba(117, 121, 124, 0.8);
+}
 .rs-cookware-header__top-menu {
   background-color: rgba(255, 255, 255, 0.14);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 .rs-cookware-header__top-menu_nav {
   display: flex;
@@ -190,6 +211,10 @@
 }
 .rs-cookware-header__main-nav {
   border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
 }
 .rs-cookware-header__main-nav_content {
   display: flex;

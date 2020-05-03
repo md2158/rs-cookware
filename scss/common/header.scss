@@ -1,6 +1,10 @@
 /* Common Style - Header */
 @import '../mixin';
+body {
+    min-height: 2000px;
+}
 .primary-menu {
+    list-style: none;
     padding: 0;
     margin: 0;
     display: flex;
@@ -28,6 +32,7 @@
         padding: 45px 0;
         margin: 0 15px;
         line-height: 1;
+        cursor: pointer;
         &::before {
             content: '';
             // opacity: 0;
@@ -67,6 +72,7 @@
     }
 }
 .sub-menu {
+    list-style: none;
     width: 290px;
     white-space: nowrap;
     padding: 25px 0;
@@ -89,6 +95,7 @@
     -moz-border-radius: 15px;
     box-sizing: border-box;
     background-color: #ffffff;
+    @include box-shadow(0,0,20,0,.1);
     &__item {
         padding: 0 40px;
     }
@@ -125,6 +132,7 @@
         }
         &:hover {
             padding-left: 15px;
+            color: initial;
             &::before {
                 left: 0;
                 visibility: visible;
@@ -134,11 +142,21 @@
     }
 }
 .rs-cookware-header {
+    $self:&;
     position: fixed;
     width: 100%;
     z-index: 1;
+    &.menu-scroll {
+        #{ $self }__top-menu {
+            background-color: rgba(74,78,80,.8);
+        }
+        #{ $self }__main-nav {
+            background-color: rgba(117,121,124,.8);
+        }
+    }
     &__top-menu {
         background-color: rgba(255,255,255,.14);
+        @include transition-all(.3);
         &_nav {
             display: flex;
         }
@@ -183,6 +201,7 @@
     &__main-nav {
         // background-color: black;
         border-bottom: 1px solid rgba(255,2552,255,.1);
+        @include transition-all(.3);
         &_content {
             display: flex;
             justify-content: space-between;
