@@ -107,3 +107,9 @@
 .icon-grill:before {
   content: "\77";
 }
+.icon-cross:before {
+  content: "\78";
+}
+.icon-chevron-down:before {
+  content: "\79";
+}

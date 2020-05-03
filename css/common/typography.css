@@ -1,6 +1,7 @@
 /* Common Style - About */
 /*-----*/
 /* Buttons - Breakpoints */
+@import url("https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap");
 /* ./Buttons - Breakpoints */
 /*-----*/
 .icon {
@@ -13,6 +14,10 @@ h1, h2, h3, p {
 
 a:hover, a:focus {
   text-decoration: none;
+}
+
+.w-100 {
+  width: 100%;
 }
 
 /* ./Common Style - About */

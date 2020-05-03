@@ -1,5 +1,6 @@
 /* Common Style - About */
 @import '../mixin';
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@100;200;300;400;500;600;700;800;900&display=swap');
 .icon {
     display: inline-flex;
 }
@@ -11,5 +12,8 @@ a {
     &:focus {
         text-decoration: none;
     }
+}
+.w-100 {
+    width: 100%;
 }
 /* ./Common Style - About */
