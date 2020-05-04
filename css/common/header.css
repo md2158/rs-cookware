@@ -160,7 +160,7 @@
   left: 0;
   top: 0;
   width: 100%;
-  z-index: 1;
+  z-index: 9;
 }
 .rs-cookware-header.menu-scroll .rs-cookware-header__top-menu {
   background-color: rgba(74, 78, 80, 0.9);
@@ -316,9 +316,9 @@
   border-radius: 15px;
   -webkit-border-radius: 15px;
   -moz-border-radius: 15px;
-  box-shadow: 8pxpx 8pxpx 30pxpx 0px rgba(0, 0, 0, 0.3) !important;
-  -moz-box-shadow: 8pxpx 8pxpx 30pxpx 0px rgba(0, 0, 0, 0.3) !important;
-  -webkit-box-shadow: 8pxpx 8pxpx 30pxpx 0px rgba(0, 0, 0, 0.3) !important;
+  box-shadow: 8px 8px 30px 0px rgba(0, 0, 0, 0.1) !important;
+  -moz-box-shadow: 8px 8px 30px 0px rgba(0, 0, 0, 0.1) !important;
+  -webkit-box-shadow: 8px 8px 30px 0px rgba(0, 0, 0, 0.1) !important;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;

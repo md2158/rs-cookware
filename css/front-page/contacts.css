@@ -3,6 +3,99 @@
 /* Buttons - Breakpoints */
 /* ./Buttons - Breakpoints */
 /*-----*/
+.rs-cookware-contacts {
+  padding-top: 100px;
+}
+.rs-cookware-contacts .block-title {
+  text-align: left;
+}
+.rs-cookware-contacts .block-title__subtitle span {
+  padding-left: 23px;
+}
+.rs-cookware-contacts .block-title__subtitle span::before {
+  left: 0;
+}
+.rs-cookware-contacts .block-title__subtitle span::after {
+  display: none;
+}
+.rs-cookware-contacts__row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.rs-cookware-contacts__col {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  box-sizing: border-box;
+}
+.rs-cookware-contacts__info {
+  background: linear-gradient(to bottom right, #cbcbb4, #848462);
+  height: 100%;
+  border-radius: 15px;
+  color: #ffffff;
+  padding: 70px;
+  margin-right: 40px;
+}
+.rs-cookware-contacts__info .block-title h2 {
+  color: #ffffff;
+}
+.rs-cookware-contacts__info .block-title__subtitle span {
+  color: #ffffff;
+}
+.rs-cookware-contacts__info .block-title__subtitle span::before {
+  background-color: #ffffff;
+}
+.rs-cookware-contacts__info p {
+  line-height: 2;
+  margin-bottom: 50px;
+}
+.rs-cookware-contacts__info a {
+  color: #ffffff;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.rs-cookware-contacts__info a:hover, .rs-cookware-contacts__info a:focus {
+  color: #5d5d42;
+}
+.rs-cookware-contacts__info_item {
+  display: flex;
+  margin-bottom: 30px;
+}
+.rs-cookware-contacts__info_item:last-of-type {
+  margin-bottom: 0;
+}
+.rs-cookware-contacts__info_icon {
+  width: 50px;
+}
+.rs-cookware-contacts__info_icon .icon {
+  font-size: 30px;
+}
+.rs-cookware-contacts__info_link span:nth-child(1) {
+  display: block;
+  font-size: 15px;
+  font-weight: bold;
+  text-transform: uppercase;
+  margin-bottom: 20px;
+}
+.rs-cookware-contacts__info_link a {
+  font-size: 18px;
+}
+.rs-cookware-contacts__form_row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+}
+.rs-cookware-contacts__form_col {
+  -ms-flex: 0 0 50%;
+  flex: 0 0 50%;
+  max-width: 50%;
+  box-sizing: border-box;
+}
 /* Contacts - Breakpoints */
 /* ./Contacts - Breakpoints */
 /*-----*/

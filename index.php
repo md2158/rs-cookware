@@ -322,7 +322,81 @@
     </div>
   </section>
   <!-- Контакты -->
-  <section class="rs-cookware-contacts"></section>
+  <section class="rs-cookware-contacts">
+    <div class="container">
+      <div class="rs-cookware-contacts__row">
+        <div class="rs-cookware-contacts__col">
+          <div class="rs-cookware-contacts__info">
+            <div class="block-title">
+              <div class="block-title__subtitle">
+                <span>Свяжитесь с нами</span>
+              </div>
+              <h2>Наши контакты</h2>
+            </div>
+            <p>В наших каталогах собрана коллекция чугунной посуды, способная стать достойным подарком себе или близким.</p>
+            <div class="rs-cookware-contacts__info_item">
+              <div class="rs-cookware-contacts__info_icon">
+                <i class="icon icon-phone-o"></i>
+              </div>
+              <div class="rs-cookware-contacts__info_link">
+                <span>Наши телефоны</span>
+                <a href="tel:88122428072">+7 (812) 242-80-72</a>
+                <span>/</span>
+                <a href="tel:88003333406">+7 (800) 333-34-06</a>
+              </div>
+            </div>
+            <div class="rs-cookware-contacts__info_item">
+              <div class="rs-cookware-contacts__info_icon">
+                <i class="icon icon-email-o"></i>
+              </div>
+              <div class="rs-cookware-contacts__info_link">
+                <span>E-mail</span>
+                <a href="mailto:info@ChugunPRO.ru">info@ChugunPRO.ru</a>
+              </div>
+            </div>
+            <div class="rs-cookware-contacts__info_item">
+              <div class="rs-cookware-contacts__info_icon">
+                <i class="icon icon-clock"></i>
+              </div>
+              <div class="rs-cookware-contacts__info_link">
+                <span>Режим работы</span>
+                <span>Пн-Вс: с 09.00 до 21.00</span>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="rs-cookware-contacts__col">
+          <div class="rs-cookware-contacts__form">
+            <div class="block-title">
+              <div class="block-title__subtitle">
+                <span>Напишите нам</span>
+              </div>
+              <h2>У вас остались вопросы?</h2>
+            </div>
+            <form action="">
+              <input type="text" name="firstname" placeholder="Ваше имя">
+              <div class="rs-cookware-contacts__form_row">
+                <div class="rs-cookware-contacts__form_col">
+                  <input type="email" name="email" placeholder="E-mail">
+                </div>
+                <div class="rs-cookware-contacts__form_col">
+                  <input type="phone" name="phone" placeholder="Телефон">
+                </div>
+              </div>
+              <textarea name="" id="" cols="30" rows="4" placeholder="Ваше сообщение"></textarea>
+              <div class="rs-cookware-contacts__form_agreement">
+                <button class="btn btn-cookware">
+                  <span>Отправить сообщение</span>
+                  <i class="icon icon-arrow-right"></i>
+                </button>
+                <p class="">Нажимая на кнопку «Отправить сообщение», Вы соглашаетесь на обработку персональных данных в соответствии с пользовательским соглашением</p>
+              </div>
+            </form>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Рецепты -->
   <section class="rs-cookware-recipes"></section>
 

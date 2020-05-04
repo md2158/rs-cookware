@@ -1,5 +1,120 @@
 /* Front-page Style - Contacts */
 @import '../mixin';
+.rs-cookware-contacts {
+    padding-top: 100px;
+    .block-title {
+        text-align: left;
+        &__subtitle {
+            span {
+                padding-left: 23px;
+                &::before {
+                    left: 0;
+                }
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
+    &__row {
+        @include row();
+    }
+    &__col {
+        @include flex-width(50%);
+    }
+    &__info {
+        background: linear-gradient(to bottom right, #cbcbb4, #848462);
+        height: 100%;
+        border-radius: 15px;
+        color: #ffffff;
+        padding: 70px;
+        margin-right: 40px;
+        .block-title {
+            h2 {
+                color: #ffffff;
+            }
+            &__subtitle {
+                span {
+                    color: #ffffff;
+                    &::before {
+                        background-color: #ffffff;
+                    }
+                }
+            }
+        }
+        p {
+            line-height: 2;
+            margin-bottom: 50px;
+        }
+        a {
+            color: #ffffff;
+            @include transition-all(.3);
+            &:hover,
+            &:focus {
+                color: #5d5d42;
+            }
+        }
+        &_item {
+            display: flex;
+            margin-bottom: 30px;
+            &:last-of-type {
+                margin-bottom: 0;
+            }
+        }
+        &_icon {
+            width: 50px;
+            .icon {
+                font-size: 30px;
+            }
+        }
+        &_link {
+            span {
+                &:nth-child(1) {
+                    display: block;
+                    font-size: 15px;
+                    font-weight: bold;
+                    text-transform: uppercase;
+                    margin-bottom: 20px;
+                }
+            }
+            a {
+                font-size: 18px;
+            }
+        }
+    }
+    &__form {
+        &_row {
+            @include row();
+        }
+        &_col {
+            @include flex-width(50%);
+        }
+        &_agreement {
+        }
+    }
+}
+.container {
+}
+.block-title {
+    // .block-title__subtitle
+    &__subtitle {
+    }
+}
+.icon {
+}
+.icon-phone-o {
+}
+.icon-email-o {
+}
+.icon-clock-o {
+}
+.btn {
+}
+.btn-cookware {
+}
+.icon-arrow-right {
+}
+
 /* Contacts - Breakpoints */
 @media (max-width: 1199px) {}
 @media (max-width: 991px) {}
