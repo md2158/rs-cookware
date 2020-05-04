@@ -168,6 +168,9 @@
 .rs-cookware-header.menu-scroll .rs-cookware-header__main-nav {
   background-color: rgba(117, 121, 124, 0.9);
 }
+.rs-cookware-header.menu-scroll .rs-cookware-header__main-nav_icons a:hover, .rs-cookware-header.menu-scroll .rs-cookware-header__main-nav_icons a:focus {
+  border-color: rgba(117, 121, 124, 0.9);
+}
 .rs-cookware-header__top-menu {
   background-color: rgba(255, 255, 255, 0.14);
   -webkit-transition: all 0.3s ease-out;
@@ -193,7 +196,7 @@
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
 }
-.rs-cookware-header__top-menu_link:hover {
+.rs-cookware-header__top-menu_link:hover, .rs-cookware-header__top-menu_link:focus {
   color: #cbcbbd;
 }
 .rs-cookware-header__top-menu_link .icon {
@@ -291,10 +294,10 @@
   transform: translate(-105%, 0);
   background-color: rgba(255, 255, 255, 0.9);
 }
-.rs-cookware-header__main-nav_icons a:hover {
+.rs-cookware-header__main-nav_icons a:hover, .rs-cookware-header__main-nav_icons a:focus {
   border-color: #1a1b1e;
 }
-.rs-cookware-header__main-nav_icons a:hover::before {
+.rs-cookware-header__main-nav_icons a:hover::before, .rs-cookware-header__main-nav_icons a:focus::before {
   opacity: 0.1;
   -webkit-transform: translate(0, 0);
   transform: translate(0, 0);

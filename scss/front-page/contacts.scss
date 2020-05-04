@@ -1,7 +1,18 @@
 /* Front-page Style - Contacts */
 @import '../mixin';
 .rs-cookware-contacts {
+    position: relative;
     padding-top: 100px;
+    &::after {
+        content:'';
+        height: 50px;
+        width: 100%;
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        background-color: #f5f5f1;
+        z-index: -1;
+    }
     .block-title {
         text-align: left;
         &__subtitle {
@@ -23,7 +34,7 @@
         @include flex-width(50%);
     }
     &__info {
-        background: linear-gradient(to bottom right, #cbcbb4, #848462);
+        background: linear-gradient(to bottom right, #cbcbb4, #848462 90%);
         height: 100%;
         border-radius: 15px;
         color: #ffffff;
@@ -83,13 +94,40 @@
         }
     }
     &__form {
+        padding: 80px 0 90px;
+        input,
+        textarea {
+            width: 100%;
+            color: #838383;
+            padding: 14px 18px;
+            border: 1px solid #e6e6e6;
+            border-radius: 25.5px;
+            margin-bottom: 20px;
+            outline: none;
+            &::placeholder {
+                color: #838383;
+            }
+        }
         &_row {
             @include row();
         }
         &_col {
             @include flex-width(50%);
+            &:nth-child(1) {
+                padding-right: 13px;
+            }
+            &:nth-child(2) {
+                padding-left: 13px;
+            }
         }
         &_agreement {
+            display: flex;
+            align-items: center;
+            p {
+                font-size: 9px;
+                line-height: 1.2;
+                margin-left: 20px;
+            }
         }
     }
 }

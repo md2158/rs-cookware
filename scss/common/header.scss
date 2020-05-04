@@ -160,6 +160,14 @@
         }
         #{ $self }__main-nav {
             background-color: rgba(117,121,124,.9);
+            &_icons {
+                a {
+                    &:hover,
+                    &:focus {
+                        border-color: rgba(117,121,124,.9);
+                    }
+                }
+            }
         }
     }
     &__top-menu {
@@ -180,7 +188,8 @@
             color: #ffffff;
             padding-right: 32px;
             @include transition-all(.3);
-            &:hover {
+            &:hover,
+            &:focus {
                 color: #cbcbbd;
             }
             .icon {
@@ -274,7 +283,8 @@
                     transform: translate(-105%,0);
                     background-color: rgba(255,255,255,.9);
                 }
-                &:hover {
+                &:hover,
+                &:focus {
                     border-color: #1a1b1e;
                     &::before {
                         opacity: 0.1;
