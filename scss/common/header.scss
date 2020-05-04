@@ -1,8 +1,5 @@
 /* Common Style - Header */
 @import '../mixin';
-body {
-    min-height: 2000px;
-}
 .primary-menu {
     list-style: none;
     padding: 0;
@@ -12,6 +9,15 @@ body {
     &__item {
         &.sub-menu-parent {
             position: relative;
+            &::after {
+                font-family: "cookware";
+                content: "\79";
+                color: #ffffff;
+                position: absolute;
+                right: 0;
+                top: calc(50% - 5px);
+                font-size: 8px;
+            }
             &:hover {
                 .sub-menu {
                     visibility: visible;
@@ -144,14 +150,16 @@ body {
 .rs-cookware-header {
     $self:&;
     position: fixed;
+    left: 0;
+    top: 0;
     width: 100%;
     z-index: 1;
     &.menu-scroll {
         #{ $self }__top-menu {
-            background-color: rgba(74,78,80,.8);
+            background-color: rgba(74,78,80,.9);
         }
         #{ $self }__main-nav {
-            background-color: rgba(117,121,124,.8);
+            background-color: rgba(117,121,124,.9);
         }
     }
     &__top-menu {

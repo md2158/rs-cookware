@@ -3,6 +3,83 @@
 /* Buttons - Breakpoints */
 /* ./Buttons - Breakpoints */
 /*-----*/
+.rs-cookware-catalog {
+  padding: 100px 0;
+  background-image: url("../../img/front-page/catalog/bg-1.png"), url("../../img/front-page/catalog/bg-2.png");
+  background-position: left top, right bottom;
+  background-repeat: no-repeat;
+}
+.rs-cookware-catalog__row {
+  display: -ms-flexbox;
+  display: flex;
+  -ms-flex-wrap: wrap;
+  flex-wrap: wrap;
+  width: 100%;
+  margin: 0 -15px;
+}
+.rs-cookware-catalog__col {
+  -ms-flex: 0 0 25%;
+  flex: 0 0 25%;
+  max-width: 25%;
+  box-sizing: border-box;
+  padding: 0 15px;
+}
+.rs-cookware-catalog__col:nth-child(odd) {
+  padding-bottom: 30px;
+}
+.rs-cookware-catalog__col:nth-child(even) {
+  padding-top: 30px;
+}
+.rs-cookware-catalog__item {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  height: 290px;
+  padding: 15px;
+  border-radius: 10px;
+  background-color: #ffffff;
+  cursor: pointer;
+  box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.1) !important;
+  -moz-box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.1) !important;
+  -webkit-box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.1) !important;
+  -webkit-transition: all 0.3s ease-out;
+  -moz-transition: all 0.3s ease-out;
+  -o-transition: all 0.3s ease-out;
+  transition: all 0.3s ease-out;
+}
+.rs-cookware-catalog__item.with-bg {
+  background-image: url(../../img/front-page/catalog/item-bg.png);
+  background-size: cover;
+}
+.rs-cookware-catalog__item.with-bg .icon,
+.rs-cookware-catalog__item.with-bg .rs-cookware-catalog__item_title,
+.rs-cookware-catalog__item.with-bg .rs-cookware-catalog__item_text {
+  color: #ffffff;
+}
+.rs-cookware-catalog__item .icon {
+  font-size: 70px;
+  color: #a2a287;
+  margin-bottom: 30px;
+}
+.rs-cookware-catalog__item_title {
+  font-size: 19px;
+  font-weight: 700;
+  color: #000000;
+  margin-bottom: 15px;
+}
+.rs-cookware-catalog__item_text {
+  font-size: 14px;
+  color: #606060;
+  line-height: 2;
+}
+.rs-cookware-catalog__item:hover {
+  box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.2) !important;
+  -moz-box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.2) !important;
+  -webkit-box-shadow: 5px 5px 20px 0px rgba(0, 0, 0, 0.2) !important;
+}
+
 /* Catalog - Breakpoints */
 /* ./Catalog - Breakpoints */
 /*-----*/

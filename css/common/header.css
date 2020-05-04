@@ -3,10 +3,6 @@
 /* Buttons - Breakpoints */
 /* ./Buttons - Breakpoints */
 /*-----*/
-body {
-  min-height: 2000px;
-}
-
 .primary-menu {
   list-style: none;
   padding: 0;
@@ -16,6 +12,15 @@ body {
 }
 .primary-menu__item.sub-menu-parent {
   position: relative;
+}
+.primary-menu__item.sub-menu-parent::after {
+  font-family: "cookware";
+  content: "y";
+  color: #ffffff;
+  position: absolute;
+  right: 0;
+  top: calc(50% - 5px);
+  font-size: 8px;
 }
 .primary-menu__item.sub-menu-parent:hover .sub-menu {
   visibility: visible;
@@ -152,14 +157,16 @@ body {
 
 .rs-cookware-header {
   position: fixed;
+  left: 0;
+  top: 0;
   width: 100%;
   z-index: 1;
 }
 .rs-cookware-header.menu-scroll .rs-cookware-header__top-menu {
-  background-color: rgba(74, 78, 80, 0.8);
+  background-color: rgba(74, 78, 80, 0.9);
 }
 .rs-cookware-header.menu-scroll .rs-cookware-header__main-nav {
-  background-color: rgba(117, 121, 124, 0.8);
+  background-color: rgba(117, 121, 124, 0.9);
 }
 .rs-cookware-header__top-menu {
   background-color: rgba(255, 255, 255, 0.14);

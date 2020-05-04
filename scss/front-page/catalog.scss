@@ -1,5 +1,70 @@
 /* Front-page Style - Catalog */
 @import '../mixin';
+.rs-cookware-catalog {
+    padding: 100px 0;
+    background-image: url('../../img/front-page/catalog/bg-1.png'), url('../../img/front-page/catalog/bg-2.png');
+    background-position: left top, right bottom;
+    background-repeat: no-repeat;
+    &__row {
+        @include row();
+        width: 100%;
+        margin: 0 -15px;
+    }
+    &__col {
+        @include flex-width(25%);
+        padding: 0 15px;
+        &:nth-child(odd) {
+            padding-bottom: 30px;
+        }
+        &:nth-child(even) {
+            padding-top: 30px;
+        }
+    }
+    &__item {
+        $self: &;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        height: 290px;
+        padding: 15px;
+        border-radius: 10px;
+        background-color: #ffffff;
+        cursor: pointer;
+        @include box-shadow(5,5,20,0,.1);
+        @include transition-all(.3);
+        &.with-bg {
+            background-image: url(../../img/front-page/catalog/item-bg.png);
+            background-size: cover;
+            .icon,
+            #{ $self }_title,
+            #{ $self }_text {
+                color: #ffffff;
+            }
+        }
+        .icon {
+            font-size: 70px;
+            color: #a2a287;
+            margin-bottom: 30px;
+        }
+        &_title {
+            font-size: 19px;
+            font-weight: 700;
+            color: #000000;
+            margin-bottom: 15px;
+        }
+        &_text {
+            font-size: 14px;
+            color: #606060;
+            line-height: 2;
+        }
+        &:hover {
+            @include box-shadow(5,5,20,0,.2);
+        }
+    }
+}
+
 /* Catalog - Breakpoints */
 @media (max-width: 1199px) {}
 @media (max-width: 991px) {}

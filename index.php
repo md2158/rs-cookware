@@ -41,7 +41,7 @@
       <div class="rs-cookware-header__main-nav">
         <div class="container">
           <div class="rs-cookware-header__main-nav_content">
-            <a class="rs-cookware-header__main-nav_logo">
+            <a href="#!" class="rs-cookware-header__main-nav_logo">
               <img src="img/svg/logo.svg" alt="logo-cookware">
             </a>
             <nav class="rs-cookware-header__menu">
@@ -87,7 +87,115 @@
     <img class="w-100" src="img/slider-1.jpg" alt="">
   </div>
   <!-- Каталог -->
-  <section class="rs-cookware-catalog"></section>
+  <section class="rs-cookware-catalog">
+    <div class="container">
+      <div class="block-title">
+        <div class="block-title__subtitle">
+          <span>ЧугунPRO</span>
+        </div>
+        <h2>Каталог магазина</h2>
+      </div>
+      <div class="rs-cookware-catalog__row">
+        
+        <div class="rs-cookware-catalog__col">
+          <a href="#!" class="rs-cookware-catalog__item">
+            <i class="icon icon-chef"></i>
+            <span class="rs-cookware-catalog__item_title">Все предложения</span>
+            <span class="rs-cookware-catalog__item_text">Весь ассортимент представленный в нашем магазине</span>
+          </a>
+        </div>
+
+        <div class="rs-cookware-catalog__col">
+          <a href="#!" class="rs-cookware-catalog__item with-bg">
+            <i class="icon icon-pan-set"></i>
+            <span class="rs-cookware-catalog__item_title">Наборы</span>
+            <span class="rs-cookware-catalog__item_text">Комплекты посуды для термической обработки пищи</span>
+          </a>
+        </div>
+
+        <div class="rs-cookware-catalog__col">
+          <a href="#!" class="rs-cookware-catalog__item">
+            <i class="icon icon-pan"></i>
+            <span class="rs-cookware-catalog__item_title">Кастрюли</span>
+            <span class="rs-cookware-catalog__item_text">Изделия для длительного приготовления (томления) блюд</span>
+          </a>
+        </div>
+
+        <div class="rs-cookware-catalog__col">
+          <a href="#!" class="rs-cookware-catalog__item">
+            <i class="icon icon-grill"></i>
+            <span class="rs-cookware-catalog__item_title">Сковороды</span>
+            <span class="rs-cookware-catalog__item_text">Изделия с природными антипригарными свойствами</span>
+          </a>
+        </div>
+
+        <div class="rs-cookware-catalog__col">
+          <a href="#!" class="rs-cookware-catalog__item">
+            <i class="icon icon-grill-press"></i>
+            <span class="rs-cookware-catalog__item_title">Прессы для гриля</span>
+            <span class="rs-cookware-catalog__item_text">Прижимающие продукты изделия с имитацией решетки</span>
+          </a>
+        </div>
+
+        <div class="rs-cookware-catalog__col">
+          <a href="#!" class="rs-cookware-catalog__item">
+            <i class="icon icon-bakery"></i>
+            <span class="rs-cookware-catalog__item_title">Формы для выпечки</span>
+            <span class="rs-cookware-catalog__item_text">Емкости для выпекания с естественными защитными свойствами</span>
+          </a>
+        </div>
+
+        <div class="rs-cookware-catalog__col">
+          <a href="#!" class="rs-cookware-catalog__item">
+            <i class="icon icon-tajines"></i>
+            <span class="rs-cookware-catalog__item_title">Тажины</span>
+            <span class="rs-cookware-catalog__item_text">Марокканские сковороды с куполообразной или конусной крышкой</span>
+          </a>
+        </div>
+
+        <div class="rs-cookware-catalog__col">
+          <a href="#!" class="rs-cookware-catalog__item">
+            <i class="icon icon-wok"></i>
+            <span class="rs-cookware-catalog__item_title">Казаны и воки</span>
+            <span class="rs-cookware-catalog__item_text">Толстостенные изделия полусферической формы для медленного нагрева</span>
+          </a>
+        </div>
+
+        <div class="rs-cookware-catalog__col">
+          <a href="#!" class="rs-cookware-catalog__item">
+            <i class="icon icon-braziers"></i>
+            <span class="rs-cookware-catalog__item_title">Жаровни и приготовление на природе</span>
+            <span class="rs-cookware-catalog__item_text">Формы для готовки в духовке или на открытом огне</span>
+          </a>
+        </div>
+
+        <div class="rs-cookware-catalog__col">
+          <a href="#!" class="rs-cookware-catalog__item">
+            <i class="icon icon-kettle"></i>
+            <span class="rs-cookware-catalog__item_title">Чайники</span>
+            <span class="rs-cookware-catalog__item_text">Традиционные японские изделия, прекрасно аккумулирующие тепло</span>
+          </a>
+        </div>
+
+        <div class="rs-cookware-catalog__col">
+          <a href="#!" class="rs-cookware-catalog__item">
+            <i class="icon icon-lids"></i>
+            <span class="rs-cookware-catalog__item_title">Крышки для посуды</span>
+            <span class="rs-cookware-catalog__item_text">Специальные изделия, улучшающие функциональность посуды</span>
+          </a>
+        </div>
+
+        <div class="rs-cookware-catalog__col">
+          <a href="#!" class="rs-cookware-catalog__item">
+            <i class="icon icon-cooking"></i>
+            <span class="rs-cookware-catalog__item_title">Аксессуары</span>
+            <span class="rs-cookware-catalog__item_text">Кухонные принадлежности, упрощающие процессы приготовления блюд</span>
+          </a>
+        </div>
+
+      </div>
+    </div>
+  </section>
   <!-- Хиты продаж -->
   <section class="rs-cookware-products"></section>
   <!-- Контакты -->

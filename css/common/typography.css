@@ -20,6 +20,42 @@ a:hover, a:focus {
   width: 100%;
 }
 
+.block-title__subtitle span::after, .block-title__subtitle span::before {
+  content: "";
+  position: absolute;
+  top: calc(50% - 3.5px);
+  height: 7px;
+  width: 7px;
+  background-color: #a5b7d2;
+  border-radius: 100%;
+}
+
+.block-title {
+  text-align: center;
+  margin-bottom: 40px;
+}
+.block-title h2 {
+  font-size: 36px;
+  font-weight: bold;
+  color: #1a1b1e;
+}
+.block-title__subtitle {
+  margin-bottom: 24px;
+}
+.block-title__subtitle span {
+  position: relative;
+  font-size: 14px;
+  font-weight: bold;
+  color: #a5b7d2;
+  text-transform: uppercase;
+}
+.block-title__subtitle span::before {
+  left: -16px;
+}
+.block-title__subtitle span::after {
+  right: -16px;
+}
+
 /* ./Common Style - About */
 
 /*# sourceMappingURL=typography.css.map */
