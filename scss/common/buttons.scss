@@ -4,6 +4,7 @@
     &.btn-cookware {
         border-radius: 26.5px;
         background-color: #cbcbbd;
+        color: #0e181a;
         font-size: 16px;
         font-weight: bold;
         padding-right: 6px;
@@ -11,6 +12,7 @@
         display: flex;
         align-items: center;
         height: 53px;
+        width: max-content;
         outline: none!important;
         @include transition-all(.3);
         .icon {
@@ -28,9 +30,26 @@
             }
         }
         &:hover {
+            color: initial;
             box-shadow: 10px 5px 15px 0px rgba(203, 203, 189, 0.5);
             -moz-box-shadow: 10px 5px 15px 0px rgba(203, 203, 189, 0.5);
             -webkit-box-shadow: 10px 5px 15px 0px rgba(203, 203, 189, 0.5);
+        }
+    }
+    &.btn-custom-rounded {
+        font-size: 12px;
+        color: #0e181a;
+        background-color: #cbcbbd;
+        border-radius: 12.5px;
+        line-height: 1;
+        outline: none;
+        @include transition-all(.3);
+        &:hover,
+        &:focus {
+            color: initial;
+            box-shadow: 2px 0px 10px 0px rgba(203, 203, 189, 0.8);
+            -moz-box-shadow: 2px 0px 10px 0px rgba(203, 203, 189, 0.8);
+            -webkit-box-shadow: 2px 0px 10px 0px rgba(203, 203, 189, 0.8);
         }
     }
 }

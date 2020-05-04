@@ -13,20 +13,6 @@
         background-color: #f5f5f1;
         z-index: -1;
     }
-    .block-title {
-        text-align: left;
-        &__subtitle {
-            span {
-                padding-left: 23px;
-                &::before {
-                    left: 0;
-                }
-                &::after {
-                    display: none;
-                }
-            }
-        }
-    }
     &__row {
         @include row();
     }

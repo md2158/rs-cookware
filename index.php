@@ -327,7 +327,7 @@
       <div class="rs-cookware-contacts__row">
         <div class="rs-cookware-contacts__col">
           <div class="rs-cookware-contacts__info">
-            <div class="block-title">
+            <div class="block-title left-aligned">
               <div class="block-title__subtitle">
                 <span>Свяжитесь с нами</span>
               </div>
@@ -367,7 +367,7 @@
         </div>
         <div class="rs-cookware-contacts__col">
           <div class="rs-cookware-contacts__form">
-            <div class="block-title">
+            <div class="block-title left-aligned">
               <div class="block-title__subtitle">
                 <span>Напишите нам</span>
               </div>
@@ -398,7 +398,111 @@
     </div>
   </section>
   <!-- Рецепты -->
-  <section class="rs-cookware-recipes"></section>
+  <section class="rs-cookware-recipes">
+    <div class="container">
+      <div class="rs-cookware-recipes__title">
+        <div class="block-title left-aligned">
+          <div class="block-title__subtitle">
+            <span>рецепты</span>
+          </div>
+          <h2>Готовим в чугуне</h2>
+        </div>
+        <a href="#!" class="btn btn-cookware">
+          <span>Посмотреть все</span>
+          <i class="icon icon-arrow-right"></i>
+        </a>
+      </div>
+      <p>Секрет неповторимого вкуса и аромата блюд не в кулинарных<br/>способностях, а в посуде, в которой они были приготовлены.</p>
+      <div class="rs-cookware-recipes__items">
+        <div class="rs-cookware-recipes__row">
+          <div class="rs-cookware-recipes__col">
+            <div class="rs-cookware-recipes__item">
+              <div class="rs-cookware-recipes__item_img">
+                <img src="img/front-page/recipes/recipe-1.png" alt="reciep-#1">
+              </div>
+              <a href="#!" class="btn btn-custom-rounded">Горячее</a>
+              <div class="rs-cookware-recipes__item_title">
+                <span>Курица в апельсиновом соусе</span>
+              </div>
+              <div class="rs-cookware-recipes__item_footer">
+                <a href="#!">
+                  <span>Подробнее</span>
+                  <i class="icon icon-arrow-right"></i>
+                </a>
+                <div class="rs-cookware-recipes__item_footer_time">
+                  <i class="icon icon-timer"></i>
+                  <span>45 мин</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rs-cookware-recipes__col">
+            <div class="rs-cookware-recipes__item">
+              <div class="rs-cookware-recipes__item_img">
+                <img src="img/front-page/recipes/recipe-1.png" alt="reciep-#1">
+              </div>
+              <a href="#!" class="btn btn-custom-rounded">Горячее</a>
+              <div class="rs-cookware-recipes__item_title">
+                <span>Курица в апельсиновом соусе</span>
+              </div>
+              <div class="rs-cookware-recipes__item_footer">
+                <a href="#!">
+                  <span>Подробнее</span>
+                  <i class="icon icon-arrow-right"></i>
+                </a>
+                <div class="rs-cookware-recipes__item_footer_time">
+                  <i class="icon icon-timer"></i>
+                  <span>45 мин</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rs-cookware-recipes__col">
+            <div class="rs-cookware-recipes__item">
+              <div class="rs-cookware-recipes__item_img">
+                <img src="img/front-page/recipes/recipe-1.png" alt="reciep-#1">
+              </div>
+              <a href="#!" class="btn btn-custom-rounded">Горячее</a>
+              <div class="rs-cookware-recipes__item_title">
+                <span>Курица в апельсиновом соусе</span>
+              </div>
+              <div class="rs-cookware-recipes__item_footer">
+                <a href="#!">
+                  <span>Подробнее</span>
+                  <i class="icon icon-arrow-right"></i>
+                </a>
+                <div class="rs-cookware-recipes__item_footer_time">
+                  <i class="icon icon-timer"></i>
+                  <span>45 мин</span>
+                </div>
+              </div>
+            </div>
+          </div>
+          <div class="rs-cookware-recipes__col">
+            <div class="rs-cookware-recipes__item">
+              <div class="rs-cookware-recipes__item_img">
+                <img src="img/front-page/recipes/recipe-1.png" alt="reciep-#1">
+              </div>
+              <a href="#!" class="btn btn-custom-rounded">Горячее</a>
+              <div class="rs-cookware-recipes__item_title">
+                <span>Курица в апельсиновом соусе</span>
+              </div>
+              <div class="rs-cookware-recipes__item_footer">
+                <a href="#!">
+                  <span>Подробнее</span>
+                  <i class="icon icon-arrow-right"></i>
+                </a>
+                <div class="rs-cookware-recipes__item_footer_time">
+                  <i class="icon icon-timer"></i>
+                  <span>45 мин</span>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
 
   <script type="text/javascript" src="js/jquery.min.js"></script>
   <script type="text/javascript" src="js/bootstrap.min.js"></script>

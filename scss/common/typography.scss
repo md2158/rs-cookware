@@ -26,8 +26,23 @@ a {
     border-radius: 100%;
 }
 .block-title {
+    $self:&;
     text-align: center;
     margin-bottom: 40px;
+    &.left-aligned {
+        text-align: left;
+        #{ $self }__subtitle {
+            span {
+                padding-left: 23px;
+                &::before {
+                    left: 0;
+                }
+                &::after {
+                    display: none;
+                }
+            }
+        }
+    }
     h2 {
         font-size: 36px;
         font-weight: bold;

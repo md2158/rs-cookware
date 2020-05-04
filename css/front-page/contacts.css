@@ -17,18 +17,6 @@
   background-color: #f5f5f1;
   z-index: -1;
 }
-.rs-cookware-contacts .block-title {
-  text-align: left;
-}
-.rs-cookware-contacts .block-title__subtitle span {
-  padding-left: 23px;
-}
-.rs-cookware-contacts .block-title__subtitle span::before {
-  left: 0;
-}
-.rs-cookware-contacts .block-title__subtitle span::after {
-  display: none;
-}
 .rs-cookware-contacts__row {
   display: -ms-flexbox;
   display: flex;
