@@ -7,6 +7,7 @@
   <title>Cookware</title>
   <link rel="icon" href="img/favicon.ico" type="image/x-icon">
   <link rel="stylesheet" href="css/bootstrap.min.css">
+  <link rel="stylesheet" href="css/swiper.min.css">
   <link rel="stylesheet" href="fonts/cookware-icons/styles.css">
   <link rel="stylesheet" href="css/style.css">
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/3.7.2/animate.min.css">
@@ -197,7 +198,129 @@
     </div>
   </section>
   <!-- Хиты продаж -->
-  <section class="rs-cookware-products"></section>
+  <section class="rs-cookware-products">
+    <div class="container">
+      <div class="block-title">
+        <div class="block-title__subtitle">
+          <span>ЧугунPRO</span>
+        </div>
+        <h2>Хиты продаж</h2>
+      </div>
+      <div class="rs-cookware-products__slider">
+        <div class="swiper-container" id="productSlider">
+          <div class="swiper-wrapper">
+            <div class="swiper-slide">
+              <div class="rs-cookware-products__item">
+                <div class="rs-cookware-products__item_img">
+                  <img src="img/front-page/products/1.png" alt="">
+                  <div class="rs-cookware-products__item_buttons">
+                    <a href="#!">
+                      <span>Купить</span>
+                      <span><i class="icon icon-credit-card"></i></span>
+                    </a>
+                    <a href="#!">
+                      <span>В корзину</span>
+                      <span><i class="icon icon-cart"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <a href="#!" class="rs-cookware-products__item_title">
+                  <span>Эмалированный чугунный кокот с крышкой «Лилия»</span>
+                </a>
+                <span class="rs-cookware-products__item_price">20 750 руб.</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="rs-cookware-products__item">
+                <div class="rs-cookware-products__item_img">
+                  <img src="img/front-page/products/1.png" alt="">
+                  <div class="rs-cookware-products__item_buttons">
+                    <a href="#!">
+                      <span>Купить</span>
+                      <span><i class="icon icon-credit-card"></i></span>
+                    </a>
+                    <a href="#!">
+                      <span>В корзину</span>
+                      <span><i class="icon icon-cart"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <a href="#!" class="rs-cookware-products__item_title">
+                  <span>Эмалированный чугунный кокот с крышкой «Лилия»</span>
+                </a>
+                <span class="rs-cookware-products__item_price">20 750 руб.</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="rs-cookware-products__item">
+                <div class="rs-cookware-products__item_img">
+                  <img src="img/front-page/products/1.png" alt="">
+                  <div class="rs-cookware-products__item_buttons">
+                    <a href="#!">
+                      <span>Купить</span>
+                      <span><i class="icon icon-credit-card"></i></span>
+                    </a>
+                    <a href="#!">
+                      <span>В корзину</span>
+                      <span><i class="icon icon-cart"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <a href="#!" class="rs-cookware-products__item_title">
+                  <span>Эмалированный чугунный кокот с крышкой «Лилия»</span>
+                </a>
+                <span class="rs-cookware-products__item_price">20 750 руб.</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="rs-cookware-products__item">
+                <div class="rs-cookware-products__item_img">
+                  <img src="img/front-page/products/1.png" alt="">
+                  <div class="rs-cookware-products__item_buttons">
+                    <a href="#!">
+                      <span>Купить</span>
+                      <span><i class="icon icon-credit-card"></i></span>
+                    </a>
+                    <a href="#!">
+                      <span>В корзину</span>
+                      <span><i class="icon icon-cart"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <a href="#!" class="rs-cookware-products__item_title">
+                  <span>Эмалированный чугунный кокот с крышкой «Лилия»</span>
+                </a>
+                <span class="rs-cookware-products__item_price">20 750 руб.</span>
+              </div>
+            </div>
+            <div class="swiper-slide">
+              <div class="rs-cookware-products__item">
+                <div class="rs-cookware-products__item_img">
+                  <img src="img/front-page/products/1.png" alt="">
+                  <div class="rs-cookware-products__item_buttons">
+                    <a href="#!">
+                      <span>Купить</span>
+                      <span><i class="icon icon-credit-card"></i></span>
+                    </a>
+                    <a href="#!">
+                      <span>В корзину</span>
+                      <span><i class="icon icon-cart"></i></span>
+                    </a>
+                  </div>
+                </div>
+                <a href="#!" class="rs-cookware-products__item_title">
+                  <span>Эмалированный чугунный кокот с крышкой «Лилия»</span>
+                </a>
+                <span class="rs-cookware-products__item_price">20 750 руб.</span>
+              </div>
+            </div>
+          </div>
+          <!-- Add Pagination -->
+          <div class="swiper-pagination" id="productSliderPag"></div>
+        </div>
+      </div>
+    </div>
+  </section>
   <!-- Контакты -->
   <section class="rs-cookware-contacts"></section>
   <!-- Рецепты -->
