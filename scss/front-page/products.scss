@@ -122,34 +122,17 @@
         }
     }
 }
-.container {
-}
-.block-title {
-    // .block-title__subtitle
-    &__subtitle {
-    }
-}
-.swiper-container {
-}
-.swiper-wrapper {
-}
-.swiper-slide {
-}
-.icon {
-}
-.icon-credit-card {
-}
-.icon-cart {
-}
-.swiper-pagination {
-}
 
 /* Products - Breakpoints */
 @media (max-width: 1199px) {}
 @media (max-width: 991px) {}
 @media (max-width: 767px) {}
 @media (max-width: 575px) {}
-@media (max-width: 379px) {}
+@media (max-width: 379px) {
+    .rs-cookware-products {
+        padding-bottom: 40px;
+    }
+}
 /* ./Products - Breakpoints */
 /*-----*/
 /* ./Front-page Style - Products */

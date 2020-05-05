@@ -13,9 +13,11 @@
 }
 .rs-cookware-recipes__title {
   display: flex;
+  margin-bottom: 40px;
 }
 .rs-cookware-recipes__title .block-title {
   margin-right: auto;
+  margin-bottom: 0;
 }
 .rs-cookware-recipes__title a {
   margin-top: 10px;
@@ -85,6 +87,52 @@
 }
 
 /* Recipes - Breakpoints */
+@media (max-width: 1199px) {
+  .rs-cookware-recipes__item_footer {
+    padding-top: 30px;
+    flex-wrap: wrap;
+  }
+  .rs-cookware-recipes__item_footer a {
+    margin-bottom: 7px;
+  }
+}
+@media (max-width: 991px) {
+  .rs-cookware-recipes__items {
+    padding-top: 0;
+  }
+  .rs-cookware-recipes__col {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+    padding-top: 120px;
+  }
+}
+@media (max-width: 767px) {
+  .rs-cookware-recipes__title {
+    flex-wrap: wrap;
+  }
+  .rs-cookware-recipes__col {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 575px) {
+  .rs-cookware-recipes {
+    padding: 40px 0;
+  }
+  .rs-cookware-recipes__title {
+    margin-bottom: 20px;
+  }
+  .rs-cookware-recipes__title .block-title {
+    margin-bottom: 15px;
+  }
+  .rs-cookware-recipes p {
+    line-height: 1.5;
+  }
+}
 /* ./Recipes - Breakpoints */
 /*-----*/
 /* ./Front-page Style - Recipes */

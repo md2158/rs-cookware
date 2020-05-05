@@ -1,4 +1,4 @@
-@import 'mixin';
+@import '../mixin';
 @keyframes rotate {
     0% {
         transform: rotate(0deg);
@@ -32,11 +32,13 @@
     span {
         display: block;
         position: absolute;
-        height: 2px;
-        width: 100%;
+        // height: 2px;
+        // width: 100%;
+        width: 35px;
+        height: 4px;
         border-radius: 9px;
         left: 0;
-        background: #333333;
+        background: #ffffff;
         margin-left: 0!important;
         -webkit-transform: rotate(0deg);
         -moz-transform: rotate(0deg);
@@ -65,23 +67,23 @@
             // background-color: #ffffff;
             &:nth-child(1) {
                 top: 10px;
-                -webkit-transform: rotate(135deg);
-                -moz-transform: rotate(135deg);
-                -o-transform: rotate(135deg);
-                transform: rotate(135deg);
+                -webkit-transform: rotate(45deg);
+                -moz-transform: rotate(45deg);
+                -o-transform: rotate(45deg);
+                transform: rotate(45deg);
             }
 
             &:nth-child(2) {
                 opacity: 0;
-                left: -60px;
+                // left: -60px;
             }
 
             &:nth-child(3) {
                 top: 10px;
-                -webkit-transform: rotate(-135deg);
-                -moz-transform: rotate(-135deg);
-                -o-transform: rotate(-135deg);
-                transform: rotate(-135deg);
+                -webkit-transform: rotate(-45deg);
+                -moz-transform: rotate(-45deg);
+                -o-transform: rotate(-45deg);
+                transform: rotate(-45deg);
             }
         }
     }
@@ -95,10 +97,11 @@
 @media (max-width: 767px) {}
 @media (max-width: 575px) {
     .animated-menu-icon {
-        width: 25px;
-        height: 18px;
+        // width: 30px;
+        // height: 18px;
         span {
-            background-color: #9c9c9c;
+            width: 30px;
+            // background-color: #9c9c9c;
             &:nth-child(2) {
                 top: 8px;
             }

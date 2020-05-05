@@ -17,9 +17,21 @@ $(document).ready(function ($) {
     $(window).scroll(function() {
         stickyNav();
     });
+    // Mobile Menu
+    $('#mobileMenuBtn').click(function(){
+        $(this).toggleClass('active');
+        $(this).find('.animated-menu-icon').toggleClass('open');
+        $('.rs-quartet-header__menu').toggleClass('active');
+    });
 
     // Mobile menu list
-    if ($(window).width() < 992) {
+    if ($(window).width() < 768) {
+        $('.rs-cookware-header__menu').addClass('collapse');
+        $('.rs-cookware-header__menu').attr('id', 'collapseMenu');
+        $('.sub-menu-parent').click(function(){
+            $(this).toggleClass('active');
+            $(this).find('.sub-menu').toggleClass('show');
+        });
         // var menu = '';
         // $( ".rs-lowence-header__menu" ).each(function() {
         //     // console.log(menu);

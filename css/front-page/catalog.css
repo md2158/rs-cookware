@@ -81,6 +81,49 @@
 }
 
 /* Catalog - Breakpoints */
+@media (max-width: 1199px) {
+  .rs-cookware-catalog__item_text {
+    font-size: 12px;
+    line-height: 1.4;
+  }
+  .rs-cookware-catalog__item .icon {
+    font-size: 60px;
+    margin-bottom: 20px;
+  }
+}
+@media (max-width: 991px) {
+  .rs-cookware-catalog__col {
+    -ms-flex: 0 0 50%;
+    flex: 0 0 50%;
+    max-width: 50%;
+    box-sizing: border-box;
+  }
+}
+@media (max-width: 767px) {
+  .rs-cookware-catalog {
+    background-size: 60%;
+  }
+}
+@media (max-width: 575px) {
+  .rs-cookware-catalog {
+    padding: 40px 0;
+  }
+  .rs-cookware-catalog__row {
+    margin: 0;
+  }
+  .rs-cookware-catalog__col {
+    -ms-flex: 0 0 100%;
+    flex: 0 0 100%;
+    max-width: 100%;
+    box-sizing: border-box;
+  }
+  .rs-cookware-catalog__col:nth-child(odd) {
+    padding: 7.5px 0;
+  }
+  .rs-cookware-catalog__col:nth-child(even) {
+    padding: 7.5px 0;
+  }
+}
 /* ./Catalog - Breakpoints */
 /*-----*/
 /* ./Front-page Style - Catalog */

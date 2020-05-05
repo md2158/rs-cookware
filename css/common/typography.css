@@ -68,6 +68,24 @@ a:hover, a:focus {
   right: -16px;
 }
 
+/*-----*/
+/* Typography - Breakpoints */
+@media (max-width: 575px) {
+  .block-title {
+    margin-bottom: 20px;
+  }
+  .block-title h2 {
+    font-size: 24px;
+  }
+  .block-title__subtitle {
+    margin-bottom: 10px;
+  }
+  .block-title__subtitle span {
+    font-size: 12px;
+  }
+}
+/* ./Typography - Breakpoints */
+/*-----*/
 /* ./Common Style - About */
 
 /*# sourceMappingURL=typography.css.map */

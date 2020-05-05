@@ -1,4 +1,4 @@
-sass --watch scss/common/header.scss:css/common/header.css scss/common/footer.scss:css/common/footer.css scss/common/buttons.scss:css/common/buttons.css scss/common/layout.scss:css/common/layout.css scss/common/typography.scss:css/common/typography.css scss/animations.scss:css/common/animations.css 
+sass --watch scss/common/header.scss:css/common/header.css scss/common/footer.scss:css/common/footer.css scss/common/buttons.scss:css/common/buttons.css scss/common/layout.scss:css/common/layout.css scss/common/typography.scss:css/common/typography.css scss/common/animations.scss:css/common/animations.css 
 
 sass --watch scss/front-page/catalog.scss:css/front-page/catalog.css scss/front-page/products.scss:css/front-page/products.css scss/front-page/contacts.scss:css/front-page/contacts.css scss/front-page/recipes.scss:css/front-page/recipes.css 
 

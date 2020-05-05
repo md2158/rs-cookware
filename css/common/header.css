@@ -68,6 +68,7 @@
 }
 .primary-menu__link:hover, .primary-menu__link:focus {
   color: #ffffff;
+  outline: none;
 }
 .primary-menu__link:hover::before, .primary-menu__link:focus::before {
   width: 50%;
@@ -272,10 +273,19 @@
   color: #1a1b1e;
   overflow: hidden;
   border: 1px solid transparent;
+  margin-right: 10px;
   -webkit-transition: all 0.3s ease-out;
   -moz-transition: all 0.3s ease-out;
   -o-transition: all 0.3s ease-out;
   transition: all 0.3s ease-out;
+}
+.rs-cookware-header__main-nav_icons a#mobileMenuBtn {
+  display: none;
+  background: none;
+  border-radius: unset;
+}
+.rs-cookware-header__main-nav_icons a#mobileMenuBtn::before {
+  display: none;
 }
 .rs-cookware-header__main-nav_icons a::before {
   content: "";
@@ -301,9 +311,6 @@
   opacity: 0.1;
   -webkit-transform: translate(0, 0);
   transform: translate(0, 0);
-}
-.rs-cookware-header__main-nav_icons a:first-of-type {
-  margin-right: 10px;
 }
 .rs-cookware-header__main-nav_icons a .icon {
   font-size: 20px;
@@ -362,6 +369,207 @@
 
 /*-----*/
 /* Header - Breakpoints */
+@media (max-width: 1199px) {
+  .rs-cookware-header.menu-scroll {
+    top: -50px;
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .rs-cookware-header__main-nav_content {
+    flex-wrap: wrap;
+  }
+  .rs-cookware-header__main-nav_logo, .rs-cookware-header__main-nav_icons {
+    order: 2;
+    width: 50%;
+  }
+  .rs-cookware-header__main-nav_logo {
+    padding-top: 20px;
+    padding-bottom: 15px;
+  }
+  .rs-cookware-header__menu {
+    order: 3;
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.2);
+  }
+
+  .primary-menu {
+    justify-content: space-between;
+  }
+  .primary-menu__item.sub-menu-parent::after {
+    right: -15px;
+  }
+  .primary-menu__link {
+    padding: 15px 0;
+    font-size: 14px;
+  }
+  .primary-menu__link:first-of-type {
+    margin-left: 0;
+  }
+  .primary-menu__link:last-of-type {
+    margin-right: 0;
+  }
+}
+@media (max-width: 991px) {
+  .rs-cookware-header__top-menu_link {
+    font-size: 14px;
+  }
+  .rs-cookware-header__main-nav_logo {
+    padding-top: 15px;
+  }
+  .rs-cookware-header__main-nav_logo img {
+    height: 40px;
+  }
+  .rs-cookware-header__main-nav_icons_cart span {
+    top: -8px;
+    left: -12px;
+  }
+  .rs-cookware-header__main-nav_icons a {
+    height: 40px;
+    width: 40px;
+  }
+  .rs-cookware-header__main-nav_icons a .icon {
+    font-size: 16px;
+  }
+}
+@media (max-width: 767px) {
+  .primary-menu {
+    flex-direction: column;
+  }
+  .primary-menu__item {
+    width: 100%;
+  }
+  .primary-menu__item:last-of-type .primary-menu__link {
+    border-bottom: 0;
+    padding-bottom: 0;
+  }
+  .primary-menu__item.sub-menu-parent::after {
+    right: 0;
+    top: 10px;
+    font-size: 12px;
+    color: #9397a7;
+    transform: rotate(-90deg);
+    -webkit-transition: all 0.3s ease-out;
+    -moz-transition: all 0.3s ease-out;
+    -o-transition: all 0.3s ease-out;
+    transition: all 0.3s ease-out;
+  }
+  .primary-menu__item.active.sub-menu-parent::after {
+    transform: rotate(0deg);
+  }
+  .primary-menu__link {
+    color: #1a1b1e;
+    text-align: left;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+  }
+  .primary-menu__link::before, .primary-menu__link::after {
+    display: none;
+  }
+  .primary-menu__link:hover, .primary-menu__link:focus {
+    color: initial;
+  }
+
+  .sub-menu {
+    display: none;
+    position: relative;
+    width: 100%;
+    margin-left: 10px;
+    box-shadow: none !important;
+    border-radius: unset;
+    left: 0;
+    opacity: 1 !important;
+    visibility: visible !important;
+    -webkit-transform: translateY(0) !important;
+    -ms-transform: translateY(0) !important;
+    transform: translateY(0) !important;
+    padding: 0;
+  }
+  .sub-menu__item {
+    padding: 0;
+    border-bottom: 1px solid rgba(0, 0, 0, 0.14);
+  }
+
+  .rs-cookware-header.menu-scroll {
+    top: -32px;
+  }
+  .rs-cookware-header__top-menu .container {
+    padding: 0;
+  }
+  .rs-cookware-header__top-menu_link {
+    padding: 10px 15px;
+  }
+  .rs-cookware-header__top-menu_link .icon {
+    margin-right: 0;
+  }
+  .rs-cookware-header__top-menu_link:nth-child(3) {
+    display: none;
+  }
+  .rs-cookware-header__top-menu_link:last-of-type {
+    padding: 10px 15px;
+    border-left: 1px solid rgba(255, 255, 255, 0.14);
+  }
+  .rs-cookware-header__top-menu_link:last-of-type::before {
+    display: none;
+  }
+  .rs-cookware-header__top-menu_link span {
+    display: none;
+  }
+  .rs-cookware-header__main-nav {
+    border: none;
+    box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1) !important;
+    -moz-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1) !important;
+    -webkit-box-shadow: 0px 10px 20px 0px rgba(0, 0, 0, 0.1) !important;
+  }
+  .rs-cookware-header__main-nav .container {
+    padding: 0;
+  }
+  .rs-cookware-header__main-nav_logo {
+    padding: 10px;
+    padding-left: 15px;
+    width: auto;
+  }
+  .rs-cookware-header__main-nav_icons {
+    width: auto;
+  }
+  .rs-cookware-header__main-nav_icons a#mobileMenuBtn {
+    display: flex;
+    margin-right: 15px;
+    width: 45px;
+  }
+  .rs-cookware-header__menu {
+    background-color: #ffffff;
+    padding: 30px;
+    overflow-y: scroll;
+    -webkit-overflow-scrolling: touch;
+    height: 360px;
+    max-height: 360px;
+  }
+}
+@media (max-width: 575px) {
+  .rs-cookware-header__main-nav_logo {
+    padding: 5px 10px 10px 15px;
+  }
+  .rs-cookware-header__main-nav_logo img {
+    height: 35px;
+  }
+  .rs-cookware-header__main-nav_icons a {
+    height: 30px;
+    width: 30px;
+    margin-right: 5px;
+  }
+  .rs-cookware-header__main-nav_icons a .icon {
+    font-size: 12px;
+  }
+  .rs-cookware-header__main-nav_icons a#mobileMenuBtn {
+    margin-right: 10px;
+    width: 33px;
+  }
+  .rs-cookware-header__main-nav_icons_cart span {
+    top: 2px;
+    left: -20px;
+  }
+}
 /* ./Header - Breakpoints */
 /*-----*/
 /* ./Common Style - Header */

@@ -74,6 +74,13 @@
               <a href="#!" id="searchModalBtn">
                 <i class="icon icon-search"></i>
               </a>
+              <a id="mobileMenuBtn" data-toggle="collapse" href="#collapseMenu" aria-expanded="false" aria-controls="collapseMenu">
+                <span class="animated-menu-icon">
+                  <span></span>
+                  <span></span>
+                  <span></span>
+                </span>
+              </a>
               <div class="rs-cookware-header__search animated fadeIn" id="searchModal">
                 <input class="rs-cookware-header__search_input" type="text" name="search" placeholder="Поиск...">
                 <button class="rs-cookware-header__search_button"><i class="icon icon-search"></i></button>

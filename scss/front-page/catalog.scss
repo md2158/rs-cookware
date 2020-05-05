@@ -66,10 +66,51 @@
 }
 
 /* Catalog - Breakpoints */
-@media (max-width: 1199px) {}
-@media (max-width: 991px) {}
-@media (max-width: 767px) {}
-@media (max-width: 575px) {}
+@media (max-width: 1199px) {
+    .rs-cookware-catalog {
+        &__item {
+            &_text {
+                font-size: 12px;
+                line-height: 1.4;
+            }
+            .icon {
+                font-size: 60px;
+                margin-bottom: 20px;
+            }
+        }
+        &__col {
+        }
+    }
+}
+@media (max-width: 991px) {
+    .rs-cookware-catalog {
+        &__col {
+            @include flex-width(50%);
+        }
+    }
+}
+@media (max-width: 767px) {
+    .rs-cookware-catalog {
+        background-size: 60%;
+    }
+}
+@media (max-width: 575px) {
+    .rs-cookware-catalog {
+        padding: 40px 0;
+        &__row {
+            margin: 0;
+        }
+        &__col {
+            @include flex-width(100%);
+            &:nth-child(odd) {
+                padding: 7.5px 0;
+            }
+            &:nth-child(even) {
+                padding: 7.5px 0;
+            }
+        }
+    }
+}
 @media (max-width: 379px) {}
 /* ./Catalog - Breakpoints */
 /*-----*/

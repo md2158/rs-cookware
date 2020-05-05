@@ -9,8 +9,10 @@
     }
     &__title {
         display: flex;
+        margin-bottom: 40px;
         .block-title {
             margin-right: auto;
+            margin-bottom: 0;
         }
         a {
             margin-top: 10px;
@@ -75,33 +77,56 @@
         }
     }
 }
-.container {
-}
-.block-title {
-    // .block-title__subtitle
-    &__subtitle {
-    }
-}
-.left-aligned {
-}
-.btn {
-}
-.btn-cookware {
-}
-.icon {
-}
-.icon-arrow-right {
-}
-.btn-custom-rounded {
-}
-.icon-timer {
-}
 
 /* Recipes - Breakpoints */
-@media (max-width: 1199px) {}
-@media (max-width: 991px) {}
-@media (max-width: 767px) {}
-@media (max-width: 575px) {}
+@media (max-width: 1199px) {
+    .rs-cookware-recipes {
+        &__item {
+            &_footer {
+                padding-top: 30px;
+                flex-wrap: wrap;
+                a {
+                    margin-bottom: 7px;
+                }
+            }
+        }
+    }
+}
+@media (max-width: 991px) {
+    .rs-cookware-recipes {
+        &__items {
+            padding-top: 0;
+        }
+        &__col {
+            @include flex-width(50%);
+            padding-top: 120px;
+        }
+    }
+}
+@media (max-width: 767px) {
+    .rs-cookware-recipes {
+        &__title {
+            flex-wrap: wrap;
+        }
+        &__col {
+            @include flex-width(100%);
+        }
+    }
+}
+@media (max-width: 575px) {
+    .rs-cookware-recipes {
+        padding: 40px 0;
+        &__title {
+            margin-bottom: 20px;
+            .block-title {
+                margin-bottom: 15px;
+            }
+        }
+        p {
+            line-height: 1.5;
+        }
+    }
+}
 @media (max-width: 379px) {}
 /* ./Recipes - Breakpoints */
 /*-----*/
