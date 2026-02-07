@@ -43,7 +43,7 @@
         <div class="container">
           <div class="rs-cookware-header__main-nav_content">
             <a href="#!" class="rs-cookware-header__main-nav_logo">
-              <img src="img/svg/logo.svg" alt="logo-cookware">
+              <img src="img/logo.svg" alt="logo-cookware">
             </a>
             <nav class="rs-cookware-header__menu">
               <ul class="primary-menu">
